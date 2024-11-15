@@ -1,0 +1,160 @@
+body {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0;
+  font-family: "Montserrat", sans-serif;
+  color: #1a1a1a;
+}
+
+.container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  background-color: #f8f8f8;
+}
+.personal-information {
+  width: 20%;
+  min-width: 280px;
+  /* height: 100vh; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #193f99;
+  padding: 2rem 1rem;
+  color: white;
+}
+
+.professional-information {
+  width: 80%;
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.img-perfil {
+  width: 200px;
+  border-radius: 50%;
+}
+
+.icon-img {
+  width: 20px;
+}
+
+h1 {
+  margin: 0;
+}
+
+.first-name {
+  font-size: 44px;
+  color: #193f99;
+}
+
+.box-icons {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin: 2rem 0 0 0;
+}
+
+.box-unit-icon {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.divider {
+  width: 100%;
+  border-bottom: 2px solid #193f99;
+  margin: 0 0 1rem 0;
+}
+
+.title-xs {
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.professional-experience {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.text-professional-experience {
+  text-align: justify;
+  margin: 5px 0;
+}
+
+ul {
+  padding: 0 20px;
+  margin: 0;
+}
+
+.img-export {
+  width: 20px;
+}
+
+.box-export {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 10px;
+}
+
+button {
+  all: unset;
+  cursor: pointer;
+}
+
+.box-academic-background {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
+.academic-background {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.box-profile {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.title-profile {
+  margin: 2rem 0 0 0;
+}
+
+.text-profile {
+  margin: 10px 0 0 0;
+  font-size: 14px;
+}
+
+.li-profile {
+  margin: 10px 0 0 0;
+  font-size: 14px;
+}
+
+.link-whats {
+  font-size: 14px;
+}
+
+.ul-experience-professional {
+  margin-bottom: 20px;
+}
+
+.link-whats {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  margin: 5px;
+  color: #389839;
+}
